@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#cc0044</color>
+    <color name="colorGuid">#11000044</color>
+    <color name="colorPrimaryTrans">#772c333d</color>
+    <color name="colorPrimaryDark">#C00040</color>
+    <color name="colorAccent">#1090b3</color>
+
+
+    <!--    Main Colors-->
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorDark4">#444444</color>
+    <color name="colorDark7">#777777</color>
+    <color name="colorDark9">#999999</color>
+    <color name="colorLight1">#f3f3f3</color>
+    <color name="colorLight2">#eeeeee</color>
+    <color name="colorLight3">#dddddd</color>
+
+
+    <color name="colorBlue">#0099CC</color>
+    <color name="colorSuccess">#00C853</color>
+    <color name="colorDanger">#cc0022</color>
+    <color name="colorWarning">#ff8800</color>
+</resources>

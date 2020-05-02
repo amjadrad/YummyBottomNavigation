@@ -1,0 +1,3 @@
+rootProject.name='YummyBottomNavigation'
+include ':app'
+include ':yummy_bottomnav'
