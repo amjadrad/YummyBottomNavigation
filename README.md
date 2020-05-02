@@ -11,7 +11,7 @@ allprojects {
 
 
 dependencies {
-	        implementation 'com.github.amjadrad:YummyBottomNavigation:Tag'
+	        implementation 'com.github.amjadrad:YummyBottomNavigation:1.0.0'
 }
   
   
