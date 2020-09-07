@@ -326,4 +326,8 @@ class SmoothBottomBar : View {
     fun setupWithNavController(menu: Menu, navController: NavController) {
         NavigationComponentHelper.setupWithNavController(menu, this, navController)
     }
+
+    fun getItemAt(index : Int): BottomBarItem {
+        return items.get(index)
+    }
 }
