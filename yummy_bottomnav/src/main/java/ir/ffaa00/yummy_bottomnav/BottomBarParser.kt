@@ -4,6 +4,8 @@ import android.content.Context
 import android.content.res.Resources
 import android.content.res.XmlResourceParser
 import android.graphics.drawable.Drawable
+import android.view.View
+import android.widget.TextView
 import androidx.annotation.XmlRes
 import androidx.core.content.ContextCompat
 import ir.ffaa00.yummy_bottomnav.Constants.ICON_ATTRIBUTE
@@ -33,6 +35,7 @@ class BottomBarParser(private val context: Context, @XmlRes res: Int) {
         val attributeCount = parser.attributeCount
         var itemText: String? = null
         var itemDrawable: Drawable? = null
+        var itemView: View? = TextView(context)
 
         for (index in 0 until attributeCount) {
             when (parser.getAttributeName(index)) {
@@ -57,6 +60,6 @@ class BottomBarParser(private val context: Context, @XmlRes res: Int) {
         if (itemDrawable == null)
             throw Throwable("Item icon can not be null!")
 
-        return BottomBarItem(itemDrawable, itemText ?: "", alpha = 0)
+        return BottomBarItem(itemDrawable, itemText ?: "", alpha = 0, view = itemView)
     }
 }
